@@ -12,16 +12,20 @@
 		31573B73228B36E3007D8AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31573B71228B36E3007D8AB9 /* Main.storyboard */; };
 		31573B75228B36E4007D8AB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31573B74228B36E4007D8AB9 /* Assets.xcassets */; };
 		31573B78228B36E4007D8AB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31573B76228B36E4007D8AB9 /* LaunchScreen.storyboard */; };
+		31BD3B23228B3D21006DEE8B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31BD3B22228B3D21006DEE8B /* Default-568h@2x.png */; };
+		31E0A4A5228B4B8F00FF8C6C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E0A4A4228B4B8F00FF8C6C /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		31573B6A228B36E3007D8AB9 /* UI_Course7 (WebKit).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI_Course7 (WebKit).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31573B6A228B36E3007D8AB9 /* UI_Course8 (WebKit).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI_Course8 (WebKit).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31573B6D228B36E3007D8AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31573B6F228B36E3007D8AB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		31573B72228B36E3007D8AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31573B74228B36E4007D8AB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31573B77228B36E4007D8AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31573B79228B36E4007D8AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31BD3B22228B3D21006DEE8B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		31E0A4A4228B4B8F00FF8C6C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E0A4A5228B4B8F00FF8C6C /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,20 +43,22 @@
 		31573B61228B36E3007D8AB9 = {
 			isa = PBXGroup;
 			children = (
-				31573B6C228B36E3007D8AB9 /* UI_Course7 (WebKit) */,
+				31BD3B22228B3D21006DEE8B /* Default-568h@2x.png */,
+				31573B6C228B36E3007D8AB9 /* UI_Course8 (WebKit) */,
 				31573B6B228B36E3007D8AB9 /* Products */,
+				31E0A4A3228B4B8E00FF8C6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		31573B6B228B36E3007D8AB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				31573B6A228B36E3007D8AB9 /* UI_Course7 (WebKit).app */,
+				31573B6A228B36E3007D8AB9 /* UI_Course8 (WebKit).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		31573B6C228B36E3007D8AB9 /* UI_Course7 (WebKit) */ = {
+		31573B6C228B36E3007D8AB9 /* UI_Course8 (WebKit) */ = {
 			isa = PBXGroup;
 			children = (
 				31573B6D228B36E3007D8AB9 /* AppDelegate.swift */,
@@ -61,15 +68,23 @@
 				31573B76228B36E4007D8AB9 /* LaunchScreen.storyboard */,
 				31573B79228B36E4007D8AB9 /* Info.plist */,
 			);
-			path = "UI_Course7 (WebKit)";
+			path = "UI_Course8 (WebKit)";
+			sourceTree = "<group>";
+		};
+		31E0A4A3228B4B8E00FF8C6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31E0A4A4228B4B8F00FF8C6C /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		31573B69228B36E3007D8AB9 /* UI_Course7 (WebKit) */ = {
+		31573B69228B36E3007D8AB9 /* UI_Course8 (WebKit) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31573B7C228B36E4007D8AB9 /* Build configuration list for PBXNativeTarget "UI_Course7 (WebKit)" */;
+			buildConfigurationList = 31573B7C228B36E4007D8AB9 /* Build configuration list for PBXNativeTarget "UI_Course8 (WebKit)" */;
 			buildPhases = (
 				31573B66228B36E3007D8AB9 /* Sources */,
 				31573B67228B36E3007D8AB9 /* Frameworks */,
@@ -79,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = "UI_Course7 (WebKit)";
+			name = "UI_Course8 (WebKit)";
 			productName = "UI_Course7 (WebKit)";
-			productReference = 31573B6A228B36E3007D8AB9 /* UI_Course7 (WebKit).app */;
+			productReference = 31573B6A228B36E3007D8AB9 /* UI_Course8 (WebKit).app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 31573B65228B36E3007D8AB9 /* Build configuration list for PBXProject "UI_Course7 (WebKit)" */;
+			buildConfigurationList = 31573B65228B36E3007D8AB9 /* Build configuration list for PBXProject "UI_Course8 (WebKit)" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				31573B69228B36E3007D8AB9 /* UI_Course7 (WebKit) */,
+				31573B69228B36E3007D8AB9 /* UI_Course8 (WebKit) */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31573B78228B36E4007D8AB9 /* LaunchScreen.storyboard in Resources */,
+				31BD3B23228B3D21006DEE8B /* Default-568h@2x.png in Resources */,
 				31573B75228B36E4007D8AB9 /* Assets.xcassets in Resources */,
 				31573B73228B36E3007D8AB9 /* Main.storyboard in Resources */,
 			);
@@ -213,6 +229,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "/Users/exzanimo/Documents/swift/projects/UI_Course8 (WebKit)/UI_Course8 (WebKit)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -268,6 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "/Users/exzanimo/Documents/swift/projects/UI_Course8 (WebKit)/UI_Course8 (WebKit)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -284,12 +302,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HWLUAMHNQZ;
-				INFOPLIST_FILE = "UI_Course7 (WebKit)/Info.plist";
+				INFOPLIST_FILE = "UI_Course8 (WebKit)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "exzaproject.UI-Course7--WebKit-";
+				PRODUCT_BUNDLE_IDENTIFIER = "exzaproject.UI-Course8--WebKit-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,12 +320,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HWLUAMHNQZ;
-				INFOPLIST_FILE = "UI_Course7 (WebKit)/Info.plist";
+				INFOPLIST_FILE = "UI_Course8 (WebKit)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "exzaproject.UI-Course7--WebKit-";
+				PRODUCT_BUNDLE_IDENTIFIER = "exzaproject.UI-Course8--WebKit-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31573B65228B36E3007D8AB9 /* Build configuration list for PBXProject "UI_Course7 (WebKit)" */ = {
+		31573B65228B36E3007D8AB9 /* Build configuration list for PBXProject "UI_Course8 (WebKit)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31573B7A228B36E4007D8AB9 /* Debug */,
@@ -326,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31573B7C228B36E4007D8AB9 /* Build configuration list for PBXNativeTarget "UI_Course7 (WebKit)" */ = {
+		31573B7C228B36E4007D8AB9 /* Build configuration list for PBXNativeTarget "UI_Course8 (WebKit)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31573B7D228B36E4007D8AB9 /* Debug */,
